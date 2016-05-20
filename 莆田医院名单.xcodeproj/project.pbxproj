@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2CFBE81CEED0C3003125E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFBE71CEED0C3003125E2 /* main.m */; };
+		CC2CFBEB1CEED0C3003125E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFBEA1CEED0C3003125E2 /* AppDelegate.m */; };
+		CC2CFBEE1CEED0C3003125E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFBED1CEED0C3003125E2 /* ViewController.m */; };
+		CC2CFBF11CEED0C3003125E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFBEF1CEED0C3003125E2 /* Main.storyboard */; };
+		CC2CFBF31CEED0C3003125E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFBF21CEED0C3003125E2 /* Assets.xcassets */; };
+		CC2CFBF61CEED0C3003125E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFBF41CEED0C3003125E2 /* LaunchScreen.storyboard */; };
+		CC2CFC011CEED0C3003125E2 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFC001CEED0C3003125E2 /* ______Tests.m */; };
+		CC2CFC0C1CEED0C3003125E2 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFC0B1CEED0C3003125E2 /* ______UITests.m */; };
+		CC2CFC1C1CEED157003125E2 /* f.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFC1B1CEED157003125E2 /* f.txt */; };
+		CC2CFC251CEEED67003125E2 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFC241CEEED67003125E2 /* HelpViewController.m */; };
+		CC2CFC2B1CEEEF4C003125E2 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFC291CEEEF4C003125E2 /* BaseWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2CFBFD1CEED0C3003125E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2CFBDB1CEED0C3003125E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2CFBE21CEED0C3003125E2;
+			remoteInfo = "莆田医院名单";
+		};
+		CC2CFC081CEED0C3003125E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2CFBDB1CEED0C3003125E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2CFBE21CEED0C3003125E2;
+			remoteInfo = "莆田医院名单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC2CFBE31CEED0C3003125E2 /* 莆田医院名单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "莆田医院名单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2CFBE71CEED0C3003125E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC2CFBE91CEED0C3003125E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC2CFBEA1CEED0C3003125E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC2CFBEC1CEED0C3003125E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC2CFBED1CEED0C3003125E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC2CFBF01CEED0C3003125E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2CFBF21CEED0C3003125E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2CFBF51CEED0C3003125E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2CFBF71CEED0C3003125E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2CFBFC1CEED0C3003125E2 /* 莆田医院名单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "莆田医院名单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2CFC001CEED0C3003125E2 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		CC2CFC021CEED0C3003125E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2CFC071CEED0C3003125E2 /* 莆田医院名单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "莆田医院名单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2CFC0B1CEED0C3003125E2 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		CC2CFC0D1CEED0C3003125E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2CFC1B1CEED157003125E2 /* f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = f.txt; sourceTree = "<group>"; };
+		CC2CFC231CEEED67003125E2 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		CC2CFC241CEEED67003125E2 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		CC2CFC291CEEEF4C003125E2 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		CC2CFC2A1CEEEF4C003125E2 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2CFBE01CEED0C3003125E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFBF91CEED0C3003125E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFC041CEED0C3003125E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2CFBDA1CEED0C3003125E2 = {
+			isa = PBXGroup;
+			children = (
+				CC2CFBE51CEED0C3003125E2 /* 莆田医院名单 */,
+				CC2CFBFF1CEED0C3003125E2 /* 莆田医院名单Tests */,
+				CC2CFC0A1CEED0C3003125E2 /* 莆田医院名单UITests */,
+				CC2CFBE41CEED0C3003125E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2CFBE41CEED0C3003125E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CFBE31CEED0C3003125E2 /* 莆田医院名单.app */,
+				CC2CFBFC1CEED0C3003125E2 /* 莆田医院名单Tests.xctest */,
+				CC2CFC071CEED0C3003125E2 /* 莆田医院名单UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2CFBE51CEED0C3003125E2 /* 莆田医院名单 */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CFC2A1CEEEF4C003125E2 /* BaseWebViewController.h */,
+				CC2CFC291CEEEF4C003125E2 /* BaseWebViewController.m */,
+				CC2CFBEC1CEED0C3003125E2 /* ViewController.h */,
+				CC2CFBED1CEED0C3003125E2 /* ViewController.m */,
+				CC2CFC231CEEED67003125E2 /* HelpViewController.h */,
+				CC2CFC241CEEED67003125E2 /* HelpViewController.m */,
+				CC2CFBEF1CEED0C3003125E2 /* Main.storyboard */,
+				CC2CFBF21CEED0C3003125E2 /* Assets.xcassets */,
+				CC2CFBF41CEED0C3003125E2 /* LaunchScreen.storyboard */,
+				CC2CFBF71CEED0C3003125E2 /* Info.plist */,
+				CC2CFBE61CEED0C3003125E2 /* Supporting Files */,
+				CC2CFC1B1CEED157003125E2 /* f.txt */,
+			);
+			path = "莆田医院名单";
+			sourceTree = "<group>";
+		};
+		CC2CFBE61CEED0C3003125E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CFBE91CEED0C3003125E2 /* AppDelegate.h */,
+				CC2CFBEA1CEED0C3003125E2 /* AppDelegate.m */,
+				CC2CFBE71CEED0C3003125E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC2CFBFF1CEED0C3003125E2 /* 莆田医院名单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CFC001CEED0C3003125E2 /* ______Tests.m */,
+				CC2CFC021CEED0C3003125E2 /* Info.plist */,
+			);
+			path = "莆田医院名单Tests";
+			sourceTree = "<group>";
+		};
+		CC2CFC0A1CEED0C3003125E2 /* 莆田医院名单UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CFC0B1CEED0C3003125E2 /* ______UITests.m */,
+				CC2CFC0D1CEED0C3003125E2 /* Info.plist */,
+			);
+			path = "莆田医院名单UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2CFBE21CEED0C3003125E2 /* 莆田医院名单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2CFC101CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单" */;
+			buildPhases = (
+				CC2CFBDF1CEED0C3003125E2 /* Sources */,
+				CC2CFBE01CEED0C3003125E2 /* Frameworks */,
+				CC2CFBE11CEED0C3003125E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "莆田医院名单";
+			productName = "莆田医院名单";
+			productReference = CC2CFBE31CEED0C3003125E2 /* 莆田医院名单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2CFBFB1CEED0C3003125E2 /* 莆田医院名单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2CFC131CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单Tests" */;
+			buildPhases = (
+				CC2CFBF81CEED0C3003125E2 /* Sources */,
+				CC2CFBF91CEED0C3003125E2 /* Frameworks */,
+				CC2CFBFA1CEED0C3003125E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2CFBFE1CEED0C3003125E2 /* PBXTargetDependency */,
+			);
+			name = "莆田医院名单Tests";
+			productName = "莆田医院名单Tests";
+			productReference = CC2CFBFC1CEED0C3003125E2 /* 莆田医院名单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2CFC061CEED0C3003125E2 /* 莆田医院名单UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2CFC161CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单UITests" */;
+			buildPhases = (
+				CC2CFC031CEED0C3003125E2 /* Sources */,
+				CC2CFC041CEED0C3003125E2 /* Frameworks */,
+				CC2CFC051CEED0C3003125E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2CFC091CEED0C3003125E2 /* PBXTargetDependency */,
+			);
+			name = "莆田医院名单UITests";
+			productName = "莆田医院名单UITests";
+			productReference = CC2CFC071CEED0C3003125E2 /* 莆田医院名单UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2CFBDB1CEED0C3003125E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "武淅 段";
+				TargetAttributes = {
+					CC2CFBE21CEED0C3003125E2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CC2CFBFB1CEED0C3003125E2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC2CFBE21CEED0C3003125E2;
+					};
+					CC2CFC061CEED0C3003125E2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CC2CFBE21CEED0C3003125E2;
+					};
+				};
+			};
+			buildConfigurationList = CC2CFBDE1CEED0C3003125E2 /* Build configuration list for PBXProject "莆田医院名单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2CFBDA1CEED0C3003125E2;
+			productRefGroup = CC2CFBE41CEED0C3003125E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2CFBE21CEED0C3003125E2 /* 莆田医院名单 */,
+				CC2CFBFB1CEED0C3003125E2 /* 莆田医院名单Tests */,
+				CC2CFC061CEED0C3003125E2 /* 莆田医院名单UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2CFBE11CEED0C3003125E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2CFC1C1CEED157003125E2 /* f.txt in Resources */,
+				CC2CFBF61CEED0C3003125E2 /* LaunchScreen.storyboard in Resources */,
+				CC2CFBF31CEED0C3003125E2 /* Assets.xcassets in Resources */,
+				CC2CFBF11CEED0C3003125E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFBFA1CEED0C3003125E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFC051CEED0C3003125E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2CFBDF1CEED0C3003125E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2CFBEE1CEED0C3003125E2 /* ViewController.m in Sources */,
+				CC2CFBEB1CEED0C3003125E2 /* AppDelegate.m in Sources */,
+				CC2CFBE81CEED0C3003125E2 /* main.m in Sources */,
+				CC2CFC2B1CEEEF4C003125E2 /* BaseWebViewController.m in Sources */,
+				CC2CFC251CEEED67003125E2 /* HelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFBF81CEED0C3003125E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2CFC011CEED0C3003125E2 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2CFC031CEED0C3003125E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2CFC0C1CEED0C3003125E2 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2CFBFE1CEED0C3003125E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2CFBE21CEED0C3003125E2 /* 莆田医院名单 */;
+			targetProxy = CC2CFBFD1CEED0C3003125E2 /* PBXContainerItemProxy */;
+		};
+		CC2CFC091CEED0C3003125E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2CFBE21CEED0C3003125E2 /* 莆田医院名单 */;
+			targetProxy = CC2CFC081CEED0C3003125E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2CFBEF1CEED0C3003125E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2CFBF01CEED0C3003125E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2CFBF41CEED0C3003125E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2CFBF51CEED0C3003125E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2CFC0E1CEED0C3003125E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC2CFC0F1CEED0C3003125E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2CFC111CEED0C3003125E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "莆田医院名单/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC2CFC121CEED0C3003125E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "莆田医院名单/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC2CFC141CEED0C3003125E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "莆田医院名单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/莆田医院名单.app/莆田医院名单";
+			};
+			name = Debug;
+		};
+		CC2CFC151CEED0C3003125E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "莆田医院名单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/莆田医院名单.app/莆田医院名单";
+			};
+			name = Release;
+		};
+		CC2CFC171CEED0C3003125E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "莆田医院名单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "莆田医院名单";
+			};
+			name = Debug;
+		};
+		CC2CFC181CEED0C3003125E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "莆田医院名单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duan.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "莆田医院名单";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2CFBDE1CEED0C3003125E2 /* Build configuration list for PBXProject "莆田医院名单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2CFC0E1CEED0C3003125E2 /* Debug */,
+				CC2CFC0F1CEED0C3003125E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2CFC101CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2CFC111CEED0C3003125E2 /* Debug */,
+				CC2CFC121CEED0C3003125E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC2CFC131CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2CFC141CEED0C3003125E2 /* Debug */,
+				CC2CFC151CEED0C3003125E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC2CFC161CEED0C3003125E2 /* Build configuration list for PBXNativeTarget "莆田医院名单UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2CFC171CEED0C3003125E2 /* Debug */,
+				CC2CFC181CEED0C3003125E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2CFBDB1CEED0C3003125E2 /* Project object */;
+}
